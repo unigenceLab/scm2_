@@ -130,19 +130,19 @@
       <div id="leftShield" aria-hidden="true"></div>
 
       <!-- 아래 기본 iframe (MES) -->
-      <iframe id="mesFrame" src="https://supreme.polarvo.com/20251021_gfuf"></iframe>
+      <iframe id="mesFrame" src="https://supreme.polarvo.com:7276/20251021_gfuf"></iframe>
 
       <!-- SCM 오버레이: MES 위를 덮음 -->
       <div id="scmOverlay" aria-hidden="true">
         <button id="closeScm" type="button">닫기</button>
-        <iframe id="scmFrame" src="https://scmorder.polarvo.com/20260130_t7hm"></iframe>
+        <iframe id="scmFrame" src="https://scmorder.polarvo.com:7276/20260130_t7hm"></iframe>
       </div>
     </div>
   </div>
 
   <script>
-    const MES_URL = "https://supreme.polarvo.com/20251021_gfuf";
-    const SCM_URL = "https://scmorder.polarvo.com/preview/20260130_t7hm";
+    const MES_URL = "https://supreme.polarvo.com:7276/20251021_gfuf";
+    const SCM_URL = "https://scmorder.polarvo.com:7276/preview/20260130_t7hm";
 
     const mesFrame = document.getElementById("mesFrame");
     const scmOverlay = document.getElementById("scmOverlay");
